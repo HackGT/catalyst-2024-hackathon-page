@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <nav className="hidden md:visible h-navBar bg-headerTeal py-4">
+        <nav className="fixed top-0 w-full z-50 h-navBar bg-headerTeal py-4">
             <div className="container mx-auto px-4">
                 <ul className="flex justify-between">
                     <li><a href="/" className="text-navText text-teal-900 font-coco hover:text-teal-600">HOME</a></li>

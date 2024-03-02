@@ -23,7 +23,7 @@ module.exports = {
             },
             height: {
                 navBar: '4.5rem',
-            }
+            },
         },
         backgroundImage: theme => ({
             'custom-gradient': `linear-gradient(to bottom, ${theme('colors.customStart')}, ${theme('colors.customEnd')})`,
