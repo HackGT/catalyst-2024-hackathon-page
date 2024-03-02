@@ -5,7 +5,6 @@ const AskQuestionForm = () => {
         <div className="bg-blue-900 text-white text-center p-10 relative">
 
             <h2 className="text-xl mb-4">Other Questions?</h2>
-            <p className="mb-8">Email us at <a href="mailto:hello@hexlabs.org" className="text-blue-200 hover:underline">hello@hexlabs.org</a> and we'll be happy to help!</p>
 
             <form className="max-w-md mx-auto">
                 <div className="mb-4">

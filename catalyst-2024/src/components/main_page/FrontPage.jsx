@@ -1,7 +1,7 @@
 import React from 'react';
-import ShellImage from '../images/Shell.svg';
-import SeaweedImage from '../images/Seaweed.svg';
-import SeashellImage from '../images/Seashell.svg';
+import ShellImage from '../../images/Shell.svg';
+import SeaweedImage from '../../images/Seaweed.svg';
+import SeashellImage from '../../images/Seashell.svg';
 
 
 const FrontPage = () => {

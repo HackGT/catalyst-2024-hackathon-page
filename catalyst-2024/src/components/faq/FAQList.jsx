@@ -43,10 +43,6 @@ const FAQList = () => {
                     <FAQItem key={index} question={faq.question} answer={faq.answer} link={faq.link} />
                 ))}
             </div>
-            <div className="text-center mt-8">
-                <p>Other Questions?</p>
-                <p>Email us at <a href="mailto:hello@hexlabs.org" className="text-blue-500 hover:text-blue-600">hello@hexlabs.org</a> and we'll be happy to help!</p>
-            </div>
         </div>
     );
 };
