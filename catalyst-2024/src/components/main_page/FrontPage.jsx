@@ -6,7 +6,7 @@ import SeashellImage from '../../images/Seashell.svg';
 
 const FrontPage = () => {
     return (
-        <div className="bg-custom-gradient text-center py-10 pt-20">
+        <div className="bg-custom-gradient text-center py-10 md:pt-20">
             <div className="flex justify-center items-center space-x-2 mb-4">
                 <img src={ShellImage} alt="Shell" className="h-8" />
                 <img src={SeaweedImage} alt="Seaweed" className="h-8" />
