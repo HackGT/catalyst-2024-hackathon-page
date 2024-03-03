@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSection = () => {
     return (
-        <section className="my-4">
+        <section id="about" className="my-4">
             <div className="max-w-3xl mx-auto p-4 text-left font-bubblegum">
                 <h2 className="text-3xl text-textColor font-coco font-bold text-left pb-3">ABOUT</h2>
                 <p>HexLabs presents Catalyst, a day of STEAM-related activities directed toward high school students all throughout Georgia!</p>
