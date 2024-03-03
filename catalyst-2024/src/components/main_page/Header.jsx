@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return (
-        <nav className="fixed top-0 w-full z-50 hidden md:flex h-navBar bg-headerTeal py-4">
+        <nav className="fixed w-full z-50 hidden md:flex h-navBar bg-headerTeal py-4">
             <div className="container mx-auto px-4">
                 <ul className="flex justify-between">
                     <li><a href="/" className="text-navText text-teal-900 font-coco hover:text-teal-600">HOME</a></li>

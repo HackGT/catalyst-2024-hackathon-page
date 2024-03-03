@@ -5,13 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerStart: "#FFF8F0",
-        headerEnd: "#FCEAF2",
+        headerStart: "#FFFBF6",
+        headerEnd: "#F4D2DD",
         headerTeal: "#DCFDFB",
+        headerBlue: "#07246D",
         middleGradient: '#73BEF7',
         endGradient: '#0066B3',
         textColor: "#44ABF9",
-        textColorDark: '#097294'
+        textColorDark: '#097294',
+        FAQ: '#DCFDFB'
       },
       fontFamily: {
         coco: "CocoBubble",
@@ -28,10 +30,9 @@ module.exports = {
       },
     },
     backgroundImage: (theme) => ({
-        "front-gradient": `linear-gradient(to bottom, ${theme(
-            "colors.headerStart")}, ${theme("colors.headerEnd")})`,
-        "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
-        ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
+      'custom-gradient': `linear-gradient(to bottom, ${theme('colors.headerStart')}, ${theme('colors.headerStart')}, ${theme('colors.headerEnd')})`,
+      "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
+      ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
 
     }),
   },
@@ -40,5 +41,17 @@ module.exports = {
       fontSize: ["responsive"],
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-outline': {
+          'color': 'white', // Text color
+          '-webkit-text-stroke-width': '8.5px', // Stroke width
+          '-webkit-text-stroke-color': '#07246D', // Stroke color
+        },
+        // Add more utilities for different stroke widths and colors if needed
+      };
+      addUtilities(newUtilities);
+    }),
+  ],
 };
