@@ -10,7 +10,8 @@ module.exports = {
         headerTeal: "#DCFDFB",
         middleGradient: '#73BEF7',
         endGradient: '#0066B3',
-        registrationStart: "#44ABF9",
+        textColor: "#44ABF9",
+        textColorDark: '#097294'
       },
       fontFamily: {
         coco: "CocoBubble",
