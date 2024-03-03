@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQItem = ({ question, answer, link }) => {
     return (
-        <div id="faq" className="my-2 p-4 bg-FAQ text-headerBlue rounded-lg shadow-md">
+        <div className="my-2 p-4 bg-FAQ text-headerBlue rounded-lg shadow-md">
             <h3 className="text-lg font-bubblegum">{question}</h3>
             <p className="mt-1 text-sm font-bubblegum">
                 {answer}
