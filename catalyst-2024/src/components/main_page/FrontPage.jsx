@@ -12,7 +12,7 @@ const FrontPage = () => {
                 <img src={SeashellImage} alt="Seashell" className="h-8" />
             </div>
             <div className="font-coco text-center p-4">
-                <h1 className="text-7xl text-white text-outline font-bold pb-3">CATALYST</h1>
+                <h1 className="text-6xl md:text-7xl text-white text-outline font-bold pb-3">CATALYST</h1>
                 <p className="text-3xl text-headerBlue">LAUNCH INTO LEARNING</p>
                 <br />
                 <p className="text-3xl text-middleGradient">SATURDAY, APRIL 6TH 2024</p>

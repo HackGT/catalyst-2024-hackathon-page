@@ -17,7 +17,7 @@ const TracksSection = () => {
                         If you're looking to explore a swiftly growing career area of crucial importance to all companies and businesses, start with an introduction from this track!</p>
                 </div>
                 <div>
-                    <h3 className="text-3xl text-textColorDark font-coco font-bold text-center mb-5">ENTREPRENEURSHIP</h3>
+                    <h3 className="text-2xl md:text-3xl text-textColorDark font-coco font-bold text-center mb-5">ENTREPRENEURSHIP</h3>
                     <p className="text-sm font-bubblegum">Ready to turn your startup dreams into a reality?  Whether you are a seasoned entrepreneur or just starting out, this course will provide you
                         with the necessary resources, support, and connections you need to succeed.</p>
                 </div>
