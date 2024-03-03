@@ -11,7 +11,7 @@ const FAQList = () => {
         {
             question: 'Where is Catalyst?',
             answer: "We'll be waiting for you at the ",
-            link: { url: 'https://maps.google.com', text: 'LOCATION' }, // Replace with actual location link
+            link: { url: 'https://www.google.com/maps/place/Klaus+Advanced+Computing+Building/@33.7772951,-84.3966886,18.23z/data=!4m6!3m5!1s0x87b781ec0ab42ea5:0x16eec927f37b40ec!8m2!3d33.7770292!4d-84.3958151!16s%2Fm%2F02vws0z?entry=ttu', text: 'Klaus Advanced Computing Building at Georgia Tech' }, // Replace with actual location link
         },
         {
             question: 'Do I need to bring anything to the learn-a-thon?',
