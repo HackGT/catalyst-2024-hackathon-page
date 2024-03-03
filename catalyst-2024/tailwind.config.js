@@ -5,14 +5,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        customStart: "#FFF8F0",
-        customEnd: "#FCEAF2",
+        headerStart: "#FFF8F0",
+        headerEnd: "#FCEAF2",
         headerTeal: "#DCFDFB",
+        middleGradient: '#73BEF7',
+        endGradient: '#0066B3',
         registrationStart: "#44ABF9",
       },
       fontFamily: {
         coco: "CocoBubble",
-        bubblegum: "Bubblegum Sans",
+        bubblegum: "BubblegumSans",
       },
       fontSize: {
         navText: "1.5rem",
@@ -25,9 +27,11 @@ module.exports = {
       },
     },
     backgroundImage: (theme) => ({
-      "custom-gradient": `linear-gradient(to bottom, ${theme(
-        "colors.customStart"
-      )}, ${theme("colors.customEnd")})`,
+        "front-gradient": `linear-gradient(to bottom, ${theme(
+            "colors.headerStart")}, ${theme("colors.headerEnd")})`,
+        "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
+        ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
+
     }),
   },
   variants: {

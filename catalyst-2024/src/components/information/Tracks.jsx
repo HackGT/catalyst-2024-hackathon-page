@@ -2,7 +2,7 @@ import React from 'react';
 
 const TracksSection = () => {
     return (
-        <div className="bg-blue-200 p-10">
+        <div className="p-10">
             <h2 className="text-3xl font-bold text-center mb-8">EXPLORE THE TRACKS!</h2>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
                 <div>

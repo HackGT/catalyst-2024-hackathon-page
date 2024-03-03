@@ -36,7 +36,7 @@ const FAQList = () => {
     ];
 
     return (
-        <div className="bg-blue-200 p-10">
+        <div className="p-10">
             <h2 className="text-3xl font-bold text-center mb-8">FAQ</h2>
             <div className="space-y-4">
                 {faqs.map((faq, index) => (

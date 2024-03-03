@@ -14,7 +14,7 @@ import AskQuestionForm from './components/faq/AskQuestion.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-main-gradient">
       <Header />
       <FrontPage />
       <Register />

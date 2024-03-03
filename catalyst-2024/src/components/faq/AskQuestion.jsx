@@ -2,7 +2,7 @@ import React from 'react';
 
 const AskQuestionForm = () => {
     return (
-        <div className="bg-blue-900 text-white text-center p-10 relative">
+        <div className="text-white text-center p-10 relative">
 
             <h2 className="text-xl mb-4">Other Questions?</h2>
 
