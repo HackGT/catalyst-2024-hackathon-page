@@ -6,7 +6,7 @@ const AskQuestionForm = () => {
 
             <h2 className="text-xl mb-4">Other Questions?</h2>
 
-            <form className="max-w-md mx-auto">
+            <form className="max-w-md mx-auto pb-16">
                 <div className="mb-4">
                     <input
                         type="email"
