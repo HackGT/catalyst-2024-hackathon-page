@@ -1,7 +1,28 @@
 import React from 'react';
 import OceanLayersImage from '../../images/OceanLayers.svg';
+import axios from 'axios';
+
+let axiosConfig = {
+    headers: {
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Access-Control-Allow-Origin': '*',
+    },
+};
 
 const AskQuestionForm = () => {
+    const sendEmail = () => {
+        axios.post('http://localhost:3001/send-email', {
+            email: 'sai.bethina@hexlabs.org',
+            subject: 'Test Email from Catalyst 2024 Website',
+            text: 'This is a test email from the Catalyst 2024 website',
+        }, axiosConfig)
+        .then(response => {
+            console.log('Email sent successfully', response);
+        })
+        .catch(error => {
+            console.error('Error sending email', error);
+        });
+    };
     return (
         <div className="text-white text-center p-10 relative">
             <img src={OceanLayersImage} alt="OceanLayers" className="w-full"></img>
@@ -25,7 +46,7 @@ const AskQuestionForm = () => {
                         required
                     ></textarea>
                 </div>
-                <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+                <button onClick={sendEmail} type="submit" className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
                     Send Question
                 </button>
             </form>
