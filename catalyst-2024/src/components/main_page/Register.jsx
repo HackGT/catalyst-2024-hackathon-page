@@ -14,7 +14,7 @@ const Register = () => {
                     <h2 className="text-6xl text-textColor font-bold mb-4 text-center">START YOUR STORY!</h2>
                         <p className="text-3xl font-bubblegum text-black-100 mb-2 pb-2 text-center">
                             Registration is FREE and is open <br />
-                            NOW at <a href="https://catalyst.hexlabs.org" className="font-bubblegum text-teal-800 underline">catalyst.hexlabs.org</a> <br />
+                        NOW at <a href="https://registration.hexlabs.org/" className="font-bubblegum text-teal-800 underline">registration.hexlabs.org</a> <br />
                             and closes on April 1st at 11:59 PM!
                         </p>
                     <a href="https://registration.hexlabs.org/" className="bg-blue-500 font-bubblegum text-white font-bold py-3 px-4 rounded-full mt-4 hover:bg-blue-700">

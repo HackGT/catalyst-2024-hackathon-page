@@ -25,13 +25,13 @@ const FAQList = () => {
         },
         {
             question: 'How do I choose which track to attend?',
-            answer: 'During registration, students will be allowed to choose which of the four tracks they\'d like to attend. For more information regarding each option, see either the Tracks section above or reference the registration application.',
+            answer: 'During registration, students will be allowed to choose which three out of the five tracks they\'d like to attend. For more information regarding each option, see either the Tracks section above or reference the registration application.',
             link: null,
         },
         {
             question: 'What is HexLabs?',
             answer: 'HexLabs is a student organization and 501(c)(3) non-profit at Georgia Tech devoted to Computer Science outreach in collegiate and high school communities. To learn more, check out our organization website ',
-            link: { url: 'https://hexlabs.org', text: 'here' },
+            link: { url: 'https://hexlabs.org', text: 'here.' },
         }
     ];
 

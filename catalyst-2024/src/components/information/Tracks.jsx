@@ -8,7 +8,7 @@ const TracksSection = () => {
                 <div>
                     <h3 className="text-4xl text-textColorDark font-coco font-bold text-center mb-5">3D DESIGN</h3>
                     <p className="text-3xl font-bubblegum"> Immerse yourselves into three-dimensional creativity with this workshop! It will be the key to guiding you through the
-                        fundamentals of 3D modeling, architecture, animation, and product design. Join this experience of where innovation meets inspiration. </p>
+                        fundamentals of 3D modeling, architecture, animation, and product design. Join this experience where innovation meets inspiration. </p>
                 </div>
                 <div>
                     <h3 className="text-4xl text-textColorDark font-coco font-bold text-center mb-5">CYBERSECURITY</h3>
