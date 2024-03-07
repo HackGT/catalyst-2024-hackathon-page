@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         headerStart: "#FFFBF6",
-        headerEnd: "#F6D5E4",
+        headerEnd: "#FCEAF2",
         headerTeal: "#DCFDFB",
         headerBlue: "#07246D",
         middleGradient: '#73BEF7',
@@ -43,9 +43,14 @@ module.exports = {
   plugins: [
     plugin(function ({ addUtilities }) {
       const newUtilities = {
-        '.text-outline': {
+        '.text-outline-large': {
           'color': 'white', // Text color
           '-webkit-text-stroke-width': '8.5px', // Stroke width
+          '-webkit-text-stroke-color': '#07246D', // Stroke color
+        },
+        '.text-outline-small': {
+          'color': 'white', // Text color
+          '-webkit-text-stroke-width': '6px', // Stroke width
           '-webkit-text-stroke-color': '#07246D', // Stroke color
         },
         // Add more utilities for different stroke widths and colors if needed
