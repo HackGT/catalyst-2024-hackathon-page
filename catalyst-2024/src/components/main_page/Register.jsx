@@ -1,52 +1,28 @@
 import React from 'react';
 import BubblesImage from '../../images/Bubbles.png';
 
-
-/*
-const Register = () => {
-    return (
-        <div className="font-coco text-center p-4">
-            <div className="bg-gradient-to-b from-teal-200 via-teal-100 to-pink-100 relative text-center p-10">
-                <h2 className="text-3xl text-textColor font-bold mb-4">START YOUR STORY!</h2>
-                    <p className="font-bubblegum text-black-100 mb-2">
-                        Registration is FREE and is open <br />
-                        NOW at <a href="https://catalyst.hexlabs.org" className="font-bubblegum text-teal-800 underline">catalyst.hexlabs.org</a> <br />
-                        and closes on [DATE]
-                    </p>
-                <button className="bg-blue-500 font-bubblegum text-white font-bold py-2 px-4 rounded-full mt-4 hover:bg-blue-700">
-                    REGISTER HERE
-                </button>
-            </div>
-
-        </div>
-    );
-};
-
-export default Register;
-*/
-
 const Register = () => {
     
     return (
         <div className="font-coco text-center p-4">
             <div className="bg-gradient-to-b from-teal-200 via-teal-100 to-pink-100 relative text-center p-10 grid grid-cols-3 gap-4 items-center">
-                <div className="col-span-1 flex justify-end">
+                <div className="hidden md:flex col-span-1 flex justify-end">
                     <img src={BubblesImage} alt="Bubbles" className="max-w-full h-auto" />
                 </div>
 
-                <div className="col-span-1">
-                    <h2 className="text-3xl text-textColor font-bold mb-4">START YOUR STORY!</h2>
-                        <p className="font-bubblegum text-black-100 mb-2">
+                <div className="col-span-3 md:col-span-1">
+                    <h2 className="text-6xl text-textColor font-bold mb-4 text-center">START YOUR STORY!</h2>
+                        <p className="text-3xl font-bubblegum text-black-100 mb-2 pb-2 text-center">
                             Registration is FREE and is open <br />
                             NOW at <a href="https://catalyst.hexlabs.org" className="font-bubblegum text-teal-800 underline">catalyst.hexlabs.org</a> <br />
                             and closes on April 1st at 11:59 PM!
                         </p>
-                    <button className="bg-blue-500 font-bubblegum text-white font-bold py-2 px-4 rounded-full mt-4 hover:bg-blue-700">
+                    <a href="https://registration.hexlabs.org/" className="bg-blue-500 font-bubblegum text-white font-bold py-3 px-4 rounded-full mt-4 hover:bg-blue-700">
                         REGISTER HERE
-                    </button>
+                    </a>
                 </div>
 
-                <div className="col-span-1 flex justify-start">
+                <div className="hidden md:flex col-span-1 flex justify-start">
                     <img src={BubblesImage} alt="Bubbles" className="max-w-full h-auto" />
                 </div>
 

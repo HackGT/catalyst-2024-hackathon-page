@@ -12,15 +12,14 @@ module.exports = {
         middleGradient: '#73BEF7',
         endGradient: '#0066B3',
         textColor: "#44ABF9",
-        textColorDark: '#097294',
-        FAQ: '#DCFDFB'
+        textColorDark: '#097294'
       },
       fontFamily: {
         coco: "CocoBubble",
         bubblegum: "BubblegumSans",
       },
       fontSize: {
-        navText: "1.5rem",
+        navText: "1.75rem",
       },
       fontWeight: {
         header: "1000",
