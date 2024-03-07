@@ -12,12 +12,12 @@ const Register = () => {
 
                 <div className="col-span-3 md:col-span-1">
                     <h2 className="text-6xl text-textColor font-bold mb-4 text-center">START YOUR STORY!</h2>
-                        <p className="text-3xl font-bubblegum text-black-100 mb-2 pb-2 text-center">
+                        <p className="text-3xl font-bubblegum text-black-100 mb-2 pb-4 text-center">
                             Registration is FREE and is open <br />
                         NOW at <a href="https://registration.hexlabs.org/" className="font-bubblegum text-teal-800 underline">registration.hexlabs.org</a> <br />
                             and closes on April 1st at 11:59 PM!
                         </p>
-                    <a href="https://registration.hexlabs.org/" className="bg-blue-500 font-bubblegum text-white font-bold py-3 px-4 rounded-full mt-4 hover:bg-blue-700">
+                    <a href="https://registration.hexlabs.org/" className="bg-blue-500 text-3xl font-bubblegum text-white font-bold py-3 px-4 rounded-full mt-4 hover:bg-blue-700">
                         REGISTER HERE
                     </a>
                 </div>
