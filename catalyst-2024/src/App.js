@@ -14,18 +14,20 @@ import AskQuestionForm from './components/faq/AskQuestion.jsx';
 
 function App() {
   return (
-    <div className="App bg-main-gradient">
+    <div className="App">
       <Header />
       <FrontPage />
-      <Register />
-      <About />
-      <Expectations />
-      <Goals />
-      <CurrentStudent />
-      <Tracks />
-      <Schedule />
-      <FAQList />
-      <AskQuestionForm />
+      <div className="bg-main-gradient">
+        <Register />
+        <About />
+        <Expectations />
+        <Goals />
+        <CurrentStudent />
+        <Tracks />
+        <Schedule />
+        <FAQList />
+        <AskQuestionForm />
+      </div>
     </div>
   );
 }

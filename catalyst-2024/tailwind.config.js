@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         headerStart: "#FFFBF6",
-        headerEnd: "#F4D2DD",
+        headerEnd: "#F6D5E4",
         headerTeal: "#DCFDFB",
         headerBlue: "#07246D",
         middleGradient: '#73BEF7',
