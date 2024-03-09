@@ -15,7 +15,7 @@ const FAQList = () => {
         },
         {
             question: 'Do I need to bring anything to the learn-a-thon?',
-            answer: 'Nope! We will provide food for every participant and laptops when necessary. Participants are welcome to bring their own devices.',
+            answer: 'Please bring your own laptop and charger, if possible. Food will be provided to every participant, and if you have any questions, please feel free to reach out to us at hello@hexlabs.org.',
             link: null,
         },
         {
