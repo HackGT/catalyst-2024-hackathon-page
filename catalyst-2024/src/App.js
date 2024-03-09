@@ -5,7 +5,7 @@ import Register from "./components/main_page/Register.jsx";
 import About from "./components/information/About.jsx";
 import Expectations from "./components/information/Expectations.jsx";
 import Goals from "./components/information/Goals.jsx";
-import CurrentStudent from "./components/information/CurrentStudent.jsx";
+// import CurrentStudent from "./components/information/CurrentStudent.jsx";
 import Tracks from "./components/information/Tracks.jsx";
 import Schedule from "./components/information/Schedule.jsx";
 import FAQList from "./components/faq/FAQList.jsx";
