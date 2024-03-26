@@ -27,6 +27,11 @@ module.exports = {
       height: {
         navBar: "4.5rem",
       },
+      spacing: {
+        '1/8' : '12.5%',
+        '1/6' : '16.6%',
+        '1/5' : '20.0%',
+      }
     },
     backgroundImage: (theme) => ({
       'custom-gradient': `linear-gradient(to bottom, ${theme('colors.headerStart')}, ${theme('colors.headerStart')}, ${theme('colors.headerEnd')})`,
