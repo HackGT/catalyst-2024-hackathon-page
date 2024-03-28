@@ -3,9 +3,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Stingray from '../../images/Stingray.svg';
-import Bubbles from '../../images/Bubbles.png';
-import Shell from '../../images/Shell.svg';
+import Schedule1 from '../../images/Schedule1.svg';
+import Schedule2 from '../../images/Schedule2.svg';
+import Schedule3 from '../../images/Schedule3.svg';
 
 const ScheduleSection = () => {
     // Settings for the carousel
@@ -15,8 +15,8 @@ const ScheduleSection = () => {
         speed: 500, // Transition speed
         slidesToShow: 1, // Number of slides to show at a time
         slidesToScroll: 1, // Number of slides to scroll on each swipe
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 3000, // Speed at which to autoplay
+        autoplay: false, // Enable autoplay
+        // autoplaySpeed: 3000, // Speed at which to autoplay
     };
 
     return (
@@ -26,18 +26,21 @@ const ScheduleSection = () => {
                 *subject to change as details arrive <br /> and will be updated accordingly
             </p>
             {/* Carousel */}
-            <Slider {...settings}>
-                <div>
-                    <img src={Stingray} alt="Stingray" />
-                </div>
-                <div>
-                    <img src={Bubbles} alt="Bubbles" />
-                </div>
-                <div>
-                    <img src={Shell} alt="Shell" />
-                </div>
-                {/* Add more slides as needed */}
-            </Slider>
+            <div id="slider">
+                <Slider {...settings} className='h-screen flex items-center justify-center'>
+                    <div className='h-screen flex items-center justify-center'>
+                        <img src={Schedule1} alt="Schedule1" className='h-screen flex items-center justify-center'/>
+                    </div>
+                    <div>
+                        <img src={Schedule2} alt="Schedule2" />
+                    </div>
+                    <div>
+                        <img src={Schedule3} alt="Schedule3" />
+                    </div>
+                    {/* Add more slides as needed */}
+                </Slider>
+            </div>
+            
         </div>
     );
 };
