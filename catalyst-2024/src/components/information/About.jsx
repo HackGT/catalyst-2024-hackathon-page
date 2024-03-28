@@ -1,5 +1,5 @@
 import React from 'react';
-//import Stingray from '../../images/Stingray.svg'
+// import Stingray from '../../images/Stingray.svg'
 
 const AboutSection = () => {
     return (

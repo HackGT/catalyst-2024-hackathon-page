@@ -1,10 +1,10 @@
 import React from 'react';
-//import Stingray from '../../images/Stingray.svg'
+// import Stingray from '../../images/Stingray.svg'
 
 const GeorgiaTechSection = () => {
     return (
         <div className="max-w-7xl mx-auto p-4 px-16 font-bubblegum text-left relative">
-            {/*<img src={Stingray} alt="Stingray" className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-auto w-auto" >*/}
+            {/* <img src={Stingray} alt="Stingray" className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-auto w-auto" /> */}
             <h2 className="text-3xl md:text-6xl text-textColor font-coco font-bold pb-3">IF YOU ARE A CURRENT GEORGIA TECH STUDENT</h2>
             <p className="text-xl md:text-3xl" >You're still able to participate in the event! Each year, GT students volunteer as mentors to help
                 facilitate the projects and activities included in each available track. This is an opportunity for you to directly interact with high school students
