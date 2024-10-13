@@ -4,6 +4,11 @@ import FAQItem from './FAQItem';
 const FAQList = () => {
     const faqs = [
         {
+            question: 'Will there be resources to learn how to code?',
+            answer: 'Yes! You can access a few introductory materials ',
+            link: {url: '/', text: 'here.'}
+        },
+        {
             question: 'Who can attend?',
             answer: 'High school students from all across the nation are welcome to register.',
             link: null,
