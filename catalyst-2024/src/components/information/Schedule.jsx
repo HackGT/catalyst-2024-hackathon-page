@@ -22,7 +22,7 @@ const ScheduleSection = () => {
         <div id="schedule" className="relative p-10 text-center">
             <h2 className="text-3xl md:text-6xl text-textColorDark font-coco font-bold mb-3">SCHEDULE</h2>
             <div id="slider">
-                <Slider {...settings} className='flex items-center justify-center'>
+                {/* <Slider {...settings} className='flex items-center justify-center'>
                     <div className='h-screen flex items-center justify-center'>
                         <img src={Schedule1} alt="Schedule1" className='mx-auto' />
                     </div>
@@ -32,7 +32,8 @@ const ScheduleSection = () => {
                     <div className='h-screen flex items-center justify-center'>
                         <img src={Schedule3} alt="Schedule3" className='mx-auto' />
                     </div>
-                </Slider>
+                </Slider> */}
+                <p className='text-lg md:text-2xl font-bubblegum'>[replace with Slider of real schedule]</p>
             </div>
             
         </div>
