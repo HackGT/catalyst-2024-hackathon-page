@@ -4,23 +4,18 @@ import FAQItem from './FAQItem';
 const FAQList = () => {
     const faqs = [
         {
-            question: 'Will there be resources to learn how to code?',
-            answer: 'Yes! You can access a few introductory materials ',
-            link: {url: '/', text: 'here.'}
-        },
-        {
             question: 'Who can attend?',
             answer: 'High school students from all across the nation are welcome to register.',
             link: null,
         },
         {
-            question: 'Where is the Catalyst Hackathon?',
+            question: 'Where is Catalyst Hacks?',
             answer: "The hackathon will be fully virtual! You can register at ",
             link: { url: '/', text: 'this link.' },
         },
         {
             question: 'How do I choose which track to attend?',
-            answer: 'During registration, students will be allowed to choose which three out of the three tracks they\'d like to attend. For more information regarding each option, see either the Tracks section above or reference the registration application.',
+            answer: 'Your project should adhere to one of the three tracks. You can either create an idea based off of these tracks or submit to whichever one fits your project the best.',
             link: null,
         },
         {
@@ -31,7 +26,7 @@ const FAQList = () => {
     ];
 
     return (
-        <div className="faq p-10">
+        <div className="faq p-8">
             <h2 className="text-3xl md:text-6xl font-bold font-coco text-textColorDark text-center mb-8">FAQ</h2>
             <div className="space-y-4">
                 {faqs.map((faq, index) => (

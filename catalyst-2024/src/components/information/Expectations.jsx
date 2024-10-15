@@ -9,7 +9,7 @@ const ExpectSection = () => {
                     Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively. Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.  <br />  <br />
                     An experience block is also offered to every student! Explore the intricacies of virtual reality, math puzzles, and even campus tours. <br />  <br />
                     We want to show high school students the world of STEAM, which is why we are providing all of the resources you'll need to get started!</p> */}
-                <p className="text-xl md:text-3xl font-bubblegum">[text]</p> 
+                <p className="text-xl md:text-3xl font-bubblegum">Hackers will be able to submit their project to one of these three tracks to compete for prizes! Participants will also have the opportunity to build important foundations in STEM by attending engaging workshops and receiving mentorship from college students and industry professionals. They’ll also have the chance to take a break from hacking at social events throughout the weekend!</p> 
             </div>
         </section>
     );

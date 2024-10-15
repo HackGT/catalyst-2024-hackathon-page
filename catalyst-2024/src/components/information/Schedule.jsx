@@ -19,7 +19,7 @@ const ScheduleSection = () => {
     };
 
     return (
-        <div id="schedule" className="relative p-10 text-center">
+        <div id="schedule" className="relative p-8 text-center">
             <h2 className="text-3xl md:text-6xl text-textColorDark font-coco font-bold mb-3">SCHEDULE</h2>
             <div id="slider">
                 {/* <Slider {...settings} className='flex items-center justify-center'>
@@ -33,7 +33,7 @@ const ScheduleSection = () => {
                         <img src={Schedule3} alt="Schedule3" className='mx-auto' />
                     </div>
                 </Slider> */}
-                <p className='text-lg md:text-2xl font-bubblegum'>[replace with Slider of real schedule]</p>
+                <p className='text-2xl md:text-4xl font-bubblegum'>Coming soon!!</p>
             </div>
             
         </div>

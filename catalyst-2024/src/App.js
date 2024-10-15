@@ -19,8 +19,8 @@ function App() {
       <div className="bg-main-gradient">
         <Register />
         <About />
-        <Expectations />
         <Goals />
+        <Expectations />
         <Tracks />
         <Schedule />
         <Prizes />

@@ -11,7 +11,7 @@ const Register = () => {
                 </div>
 
                 <div className="col-span-3 md:col-span-1">
-                    <h2 className="text-4xl md:text-6xl text-textColor font-bold mb-4 text-center">START YOUR STORY!</h2>
+                    <h2 className="text-4xl md:text-6xl text-textColor font-bold mb-4 text-center">BEGIN YOUR VOYAGE!</h2>
                         <p className="text-xl md:text-3xl font-bubblegum text-black-100 mb-2 pb-4 text-center">
                             Registration is FREE and is open <br />
                         NOW at <a href="https://registration.hexlabs.org/65e74d162cf22c2b2fd7a022" className="font-bubblegum text-teal-800 underline">registration.hexlabs.org</a> <br />

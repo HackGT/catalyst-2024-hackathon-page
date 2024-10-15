@@ -12,7 +12,7 @@ module.exports = {
         middleGradient: '#73BEF7',
         endGradient: '#0066B3',
         textColor: "#44ABF9",
-        textColorDark: '#097294'
+        textColorDark: '#266FAD'
       },
       fontFamily: {
         coco: "CocoBubble",

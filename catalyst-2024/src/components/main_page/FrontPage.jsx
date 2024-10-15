@@ -18,10 +18,10 @@ const FrontPage = () => {
             <img src={Seashell} alt="Seashell" className="hidden lg:flex absolute left-1/16 top-1/4 transform translate-x-1/3 -translate-y-1/2 h-auto w-auto" />
             <img src={Shell} alt="Shell" className="hidden lg:flex absolute right-1/8 top-1/2 transform -translate-x-1/8 -translate-y-1/4 h-auto w-auto" />
             <div className="font-coco text-center pb-24 p-4">
-                <h1 className="text-5xl md:text-9xl text-white text-outline-small md:text-outline-large font-bold pb-3">CATALYST HACKS</h1>
+                <h1 className="text-5xl md:text-8xl text-white text-outline-small md:text-outline-large font-bold pb-3">CATALYST HACKS</h1>
                 <p className="text-3xl md:text-5xl text-headerBlue">CHART NEW WATERS</p>
                 <br /><br />
-                <p className="text-3xl md:text-5xl text-middleGradient">[DAY], NOVEMBER []TH 2024</p>
+                <p className="text-3xl md:text-5xl text-middleGradient">NOVEMBER 8TH  - 11TH 2024</p>
             </div>
             <img src={BeachConversion} alt="Shell" className="w-full h-auto my-0" />
         </div>
