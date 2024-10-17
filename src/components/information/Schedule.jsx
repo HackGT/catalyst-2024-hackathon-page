@@ -1,22 +1,21 @@
 import React from 'react';
-// Import Slider and necessary CSS
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Schedule1 from '../../images/Schedule1.svg';
-import Schedule2 from '../../images/Schedule2.svg';
-import Schedule3 from '../../images/Schedule3.svg';
+// import Schedule1 from '../../images/Schedule1.svg';
+// import Schedule2 from '../../images/Schedule2.svg';
+// import Schedule3 from '../../images/Schedule3.svg';
 
 const ScheduleSection = () => {
     // Settings for the carousel
-    const settings = {
-        dots: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000, // Speed at which to autoplay
-    };
+    // const settings = {
+    //     dots: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 3000, // Speed at which to autoplay
+    // };
 
     return (
         <div id="schedule" className="relative p-8 text-center">
