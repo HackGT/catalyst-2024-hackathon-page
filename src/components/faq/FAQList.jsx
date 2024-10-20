@@ -11,7 +11,7 @@ const FAQList = () => {
         {
             question: 'Where is Catalyst Hacks?',
             answer: "The hackathon will be fully virtual! You can register at ",
-            link: { url: '/', text: 'this link.' },
+            link: { url: 'https://registration.hexlabs.org/67033be1d1c52afadcfb2968', text: 'this link.' },
         },
         {
             question: 'How do I choose which track to attend?',
