@@ -13,12 +13,12 @@ const Register = () => {
                 <div className="col-span-3 md:col-span-1">
                     <h2 className="text-4xl md:text-6xl text-textColor font-bold mb-4 text-center">BEGIN YOUR VOYAGE!</h2>
                         <p className="text-xl md:text-3xl font-bubblegum text-black-100 mb-2 pb-4 text-center">
-                            Registration is FREE and is open <br />
+                            Applications are FREE and are open <br />
                         NOW at <a href="https://registration.hexlabs.org/67033be1d1c52afadcfb2968" className="font-bubblegum text-teal-800 underline">registration.hexlabs.org</a> <br />
                             and closes on November 2nd at 11:59 PM!
                         </p>
                     <a href="https://registration.hexlabs.org/67033be1d1c52afadcfb2968" className="bg-blue-500 text-3xl font-bubblegum text-white whitespace-nowrap font-bold py-3 px-4 rounded-full mt-4 hover:bg-blue-700">
-                        REGISTER HERE
+                        APPLY HERE
                     </a>
                 </div>
 
