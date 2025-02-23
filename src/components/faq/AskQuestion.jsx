@@ -52,7 +52,7 @@ const AskQuestionForm = () => {
                 </button>
             </form> */}
             <p className="absolute text-xs md:text-3xl font-bubblegum bottom-5 left-1/2 transform -translate-x-1/2">
-                WITH 💙 FROM THE HEXLABS TEAM
+                WITH ❤️ FROM THE HEXLABS TEAM
             </p>
         </div>
     );
