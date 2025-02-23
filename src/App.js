@@ -6,7 +6,7 @@ import About from "./components/information/About.jsx";
 import Expectations from "./components/information/Expectations.jsx";
 import Goals from "./components/information/Goals.jsx";
 import Tracks from "./components/information/Tracks.jsx";
-//import Prizes from "./components/information/Prizes.jsx"
+import Prizes from "./components/information/Prizes.jsx";
 import Schedule from "./components/information/Schedule.jsx";
 import FAQList from "./components/faq/FAQList.jsx";
 import AskQuestionForm from "./components/faq/AskQuestion.jsx";
@@ -16,7 +16,7 @@ function App() {
     <div className="App bg-bgcustom">
       <Header />
       <FrontPage />
-      <div className="bg-main-gradient -mt-1"> {/* added negative margin top */}
+      <div>
         <About />
         <Goals />
         <Expectations />
