@@ -5,18 +5,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerStart: "#0F0D2E", // Deep red for primary areas
-        headerEnd: "#0F0D2E", // Slightly lighter red for gradients
-        headerTeal: "#0F0D2E", // Darker red for contrast
-        headerBlue: "#0F0D2E", // Very dark red, almost black for accents
-        middleGradient: "#0F0D2E", // Mid-tone red for transitions
-        endGradient: "#0F0D2E", // Bright red for highlights
-        textColor: "#0F0D2E", // Light red for text contrast
-        textColorDark: "#0F0D2E", // Softer light red for readability
+        headerStart: "#FFFBF6",
+        headerEnd: "#FCEAF2",
+        headerTeal: "#DCFDFB",
+        headerBlue: "#07246D",
+        middleGradient: "#73BEF7",
+        endGradient: "#0066B3",
+        textColor: "#FFF",
+        //textColor: "#44ABF9",
+        textColorDark: "#266FAD",
+        bgcustom: "#0F0D2E",
       },
       fontFamily: {
         coco: "CocoBubble",
         bubblegum: "BubblegumSans",
+        racesport: "RaceSport",
+        jetbrains: "JetBrainsMono",
       },
       fontSize: {
         navText: "1.75rem",
@@ -27,18 +31,24 @@ module.exports = {
       height: {
         navBar: "4.5rem",
       },
+      width: {
+        custom: "75vw",
+      },
       spacing: {
         "1/8": "12.5%",
         "1/6": "16.6%",
         "1/5": "20.0%",
       },
-
-      backgroundImage: (theme) => ({
-        "custom-gradient": `linear-gradient(to bottom, ${theme("colors.darkRed")}, ${theme("colors.deepRed")})`,
-        "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
-        ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
-      }),
     },
+    backgroundImage: (theme) => ({
+      "custom-gradient": `linear-gradient(to bottom, ${theme(
+        "colors.headerStart"
+      )}, ${theme("colors.headerStart")}, ${theme("colors.headerEnd")})`,
+      "main-gradient": `linear-gradient(to bottom, ${theme(
+        "colors.headerTeal"
+      )}, 
+      ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
+    }),
   },
   variants: {
     extend: {
@@ -51,13 +61,14 @@ module.exports = {
         ".text-outline-large": {
           color: "white", // Text color
           "-webkit-text-stroke-width": "8.5px", // Stroke width
-          "-webkit-text-stroke-color": "#000000", // Dark red stroke
+          "-webkit-text-stroke-color": "#07246D", // Stroke color
         },
         ".text-outline-small": {
           color: "white", // Text color
           "-webkit-text-stroke-width": "6px", // Stroke width
-          "-webkit-text-stroke-color": "#0F0D2E", // Slightly brighter red stroke
+          "-webkit-text-stroke-color": "#07246D", // Stroke color
         },
+        // Add more utilities for different stroke widths and colors if needed
       };
       addUtilities(newUtilities);
     }),
