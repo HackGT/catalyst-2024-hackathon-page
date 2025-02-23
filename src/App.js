@@ -13,7 +13,7 @@ import AskQuestionForm from "./components/faq/AskQuestion.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-bgcustom">
       <Header />
       <FrontPage />
       <div className="bg-main-gradient -mt-1"> {/* added negative margin top */}
