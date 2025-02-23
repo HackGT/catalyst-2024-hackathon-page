@@ -5,14 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerStart: "#FFFBF6",
-        headerEnd: "#FCEAF2",
-        headerTeal: "#DCFDFB",
-        headerBlue: "#07246D",
-        middleGradient: '#73BEF7',
-        endGradient: '#0066B3',
-        textColor: "#44ABF9",
-        textColorDark: '#266FAD'
+        headerStart: "#6b0000", // Deep red for primary areas
+        headerEnd: "#8b0000", // Slightly lighter red for gradients
+        headerTeal: "#400000", // Darker red for contrast
+        headerBlue: "#300000", // Very dark red, almost black for accents
+        middleGradient: "#700000", // Mid-tone red for transitions
+        endGradient: "#a10000", // Bright red for highlights
+        textColor: "#ffffff", // Light red for text contrast
+        textColorDark: "#fffffa", // Softer light red for readability
       },
       fontFamily: {
         'jetbrains': ['JetBrains Mono', 'monospace'],
@@ -28,17 +28,17 @@ module.exports = {
         navBar: "4.5rem",
       },
       spacing: {
-        '1/8' : '12.5%',
-        '1/6' : '16.6%',
-        '1/5' : '20.0%',
-      }
-    },
-    backgroundImage: (theme) => ({
-      'custom-gradient': `linear-gradient(to bottom, ${theme('colors.headerStart')}, ${theme('colors.headerStart')}, ${theme('colors.headerEnd')})`,
-      "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
-      ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
+        "1/8": "12.5%",
+        "1/6": "16.6%",
+        "1/5": "20.0%",
+      },
 
-    }),
+      backgroundImage: (theme) => ({
+        "custom-gradient": `linear-gradient(to bottom, ${theme("colors.darkRed")}, ${theme("colors.deepRed")})`,
+        "main-gradient": `linear-gradient(to bottom, ${theme("colors.headerTeal")}, 
+        ${theme("colors.middleGradient")}, ${theme("colors.endGradient")})`,
+      }),
+    },
   },
   variants: {
     extend: {
@@ -48,17 +48,16 @@ module.exports = {
   plugins: [
     plugin(function ({ addUtilities }) {
       const newUtilities = {
-        '.text-outline-large': {
-          'color': 'white', // Text color
-          '-webkit-text-stroke-width': '8.5px', // Stroke width
-          '-webkit-text-stroke-color': '#07246D', // Stroke color
+        ".text-outline-large": {
+          color: "white", // Text color
+          "-webkit-text-stroke-width": "8.5px", // Stroke width
+          "-webkit-text-stroke-color": "#FFFFFF", // Dark red stroke
         },
-        '.text-outline-small': {
-          'color': 'white', // Text color
-          '-webkit-text-stroke-width': '6px', // Stroke width
-          '-webkit-text-stroke-color': '#07246D', // Stroke color
+        ".text-outline-small": {
+          color: "white", // Text color
+          "-webkit-text-stroke-width": "6px", // Stroke width
+          "-webkit-text-stroke-color": "#FFFFFFF", // Slightly brighter red stroke
         },
-        // Add more utilities for different stroke widths and colors if needed
       };
       addUtilities(newUtilities);
     }),

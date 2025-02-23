@@ -33,3 +33,14 @@ code {
   font-family: 'Coco Bubble', 'BubblegumSans', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.faq h2 {
+  color: #FFD1D1 !important;
+  font-weight: bold !important;
+}
+
+.faq div {
+  color: #FFE5E5 !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
