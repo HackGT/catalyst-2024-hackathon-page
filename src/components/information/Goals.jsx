@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const goals = [
     { icon: "🏆", text: "To Encourage The Development Of Innovative And Impactful Projects" },
