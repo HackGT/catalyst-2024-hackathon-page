@@ -22,12 +22,17 @@ const FAQList = () => {
             question: 'What is HexLabs?',
             answer: 'HexLabs is a student organization and 501(c)(3) non-profit at Georgia Tech devoted to Computer Science outreach in collegiate and high school communities. To learn more, check out our organization website ',
             link: { url: 'https://hexlabs.org', text: 'here.' },
+        },
+        {
+            question: 'Do I need to bring anything to the learn-a-thon?',
+            answer: 'Just a computer, yourself, and a willingness to learn!',
+            link: null,
         }
     ];
 
     return (
         <div className="faq p-8">
-            <h2 className="text-3xl md:text-6xl font-bold font-coco text-textColorDark text-center mb-8">FAQ</h2>
+            <h2 className="text-3xl md:text-6xl font-bold font-coco text-textColorDark text-center mb-8">PIT STOP!! (FAQ)</h2>
             <div className="space-y-4">
                 {faqs.map((faq, index) => (
                     <FAQItem key={index} question={faq.question} answer={faq.answer} link={faq.link} />
