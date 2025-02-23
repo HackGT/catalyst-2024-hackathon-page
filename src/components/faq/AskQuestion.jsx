@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import OceanLayersImage from "../../images/OceanLayers.svg";
 // import axios from 'axios';
 
 // let axiosConfig = {
@@ -48,11 +49,11 @@ const AskQuestionForm = () => {
                     Send Question
                 </button>
             </form> */}
-            <p className="text-xs md:text-3xl font-bubblegum text-center mt-8">
-    WITH 💙 FROM THE HEXLABS TEAM
-</p>
-        </div>
-    );
+      <p className="absolute text-xs md:text-3xl font-racesport bottom-5 left-1/2 transform -translate-x-1/2">
+        WITH 💙 FROM THE HEXLABS TEAM
+      </p>
+    </div>
+  );
 };
 
 export default AskQuestionForm;
