@@ -27,8 +27,8 @@ const FAQList = () => {
 
     return (
         <div className="faq p-8">
-            <h2 className="text-3xl md:text-6xl font-bold font-coco text-textColorDark text-center mb-8">FAQ</h2>
-            <div className="space-y-4">
+            <h2 className="text-3xl md:text-6xl font-bold font-coco text-center mb-8" style={{ color: "#FFD1D1" }}>FAQ</h2>
+            <div className="space-y-4" style={{ color: "#FFE5E5" }}>
                 {faqs.map((faq, index) => (
                     <FAQItem key={index} question={faq.question} answer={faq.answer} link={faq.link} />
                 ))}
