@@ -1,4 +1,11 @@
-import React from "react";
+import React from 'react';
+
+const goals = [
+    { icon: "🏆", text: "To Encourage The Development Of Innovative And Impactful Projects" },
+    { icon: "🛞", text: "To Create A Community For Discussion, Interaction, And Innovation" },
+    { icon: "🏎️", text: "To Foster Connections Between Students With Like-Minded Interest In Computer Science" },
+    { icon: "🛑", text: "To Build A Safe Space For Development And Competition" }
+];
 
 const goals = [
     { icon: "🏆", text: "To Encourage The Development Of Innovative And Impactful Projects" },
