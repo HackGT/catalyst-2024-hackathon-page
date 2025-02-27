@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
 @font-face {
   font-family: 'CocoBubble';
@@ -10,6 +11,13 @@
 @font-face {
   font-family: 'BubblegumSans';
   src: url(fonts/BubblegumSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'RaceSport';
+  src: url('./fonts/RaceSport.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {

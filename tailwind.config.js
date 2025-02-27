@@ -15,8 +15,8 @@ module.exports = {
         textColorDark: '#266FAD'
       },
       fontFamily: {
-        coco: "CocoBubble",
-        bubblegum: "BubblegumSans",
+        'jetbrains': ['JetBrains Mono', 'monospace'],
+        'racesport': ['RaceSport', 'sans-serif'],
       },
       fontSize: {
         navText: "1.75rem",
