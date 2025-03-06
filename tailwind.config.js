@@ -5,14 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerStart: "#6b0000", // Deep red for primary areas
-        headerEnd: "#8b0000", // Slightly lighter red for gradients
-        headerTeal: "#400000", // Darker red for contrast
-        headerBlue: "#300000", // Very dark red, almost black for accents
-        middleGradient: "#700000", // Mid-tone red for transitions
-        endGradient: "#a10000", // Bright red for highlights
-        textColor: "#ffffff", // Light red for text contrast
-        textColorDark: "#fffffa", // Softer light red for readability
+        headerStart: "#0F0D2E", // Deep red for primary areas
+        headerEnd: "#0F0D2E", // Slightly lighter red for gradients
+        headerTeal: "#0F0D2E", // Darker red for contrast
+        headerBlue: "#0F0D2E", // Very dark red, almost black for accents
+        middleGradient: "#0F0D2E", // Mid-tone red for transitions
+        endGradient: "#0F0D2E", // Bright red for highlights
+        textColor: "#0F0D2E", // Light red for text contrast
+        textColorDark: "#0F0D2E", // Softer light red for readability
       },
       fontFamily: {
         coco: "CocoBubble",
@@ -51,12 +51,12 @@ module.exports = {
         ".text-outline-large": {
           color: "white", // Text color
           "-webkit-text-stroke-width": "8.5px", // Stroke width
-          "-webkit-text-stroke-color": "#FFFFFF", // Dark red stroke
+          "-webkit-text-stroke-color": "#000000", // Dark red stroke
         },
         ".text-outline-small": {
           color: "white", // Text color
           "-webkit-text-stroke-width": "6px", // Stroke width
-          "-webkit-text-stroke-color": "#FFFFFFF", // Slightly brighter red stroke
+          "-webkit-text-stroke-color": "#0F0D2E", // Slightly brighter red stroke
         },
       };
       addUtilities(newUtilities);
