@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <nav className="fixed w-full z-50 hidden md:flex h-navBar bg-bgcustom drop-shadow-md py-4">
+    <nav className="fixed w-full z-50 hidden md:flex h-navBar bg-bgcustom/50 drop-shadow-md py-4">
       <div className="container mx-auto px-4">
         <ul className="flex justify-between">
           <li>
