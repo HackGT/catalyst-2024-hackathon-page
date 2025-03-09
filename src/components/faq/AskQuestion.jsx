@@ -1,5 +1,4 @@
 import React from 'react';
-import OceanLayersImage from '../../images/OceanLayers.svg';
 // import axios from 'axios';
 
 // let axiosConfig = {

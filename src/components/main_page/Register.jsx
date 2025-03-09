@@ -1,5 +1,4 @@
 import React from 'react';
-import BubblesImage from '../../images/Bubbles.png';
 
 const Register = () => {
     
