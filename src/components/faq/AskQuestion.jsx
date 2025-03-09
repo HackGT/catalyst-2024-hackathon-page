@@ -56,7 +56,14 @@ const AskQuestionForm = () => {
   );
 =======
 import React from 'react';
-import OceanLayersImage from '../../images/OceanLayers.svg';
+// import axios from 'axios';
+
+// let axiosConfig = {
+//     headers: {
+//         'Content-Type': 'application/json;charset=UTF-8',
+//         'Access-Control-Allow-Origin': '*',
+//     },
+// };
 
 const AskQuestionForm = () => {
     return (
