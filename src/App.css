@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  background-color: #0F0D2E; /* deep red */
+  color: #fff;
+}
+
+.App-header {
+  /* Remove the old color */
+  background-color: transparent;
+  /* Some padding so your content isn't flush against the edges */
+  padding: 2rem;
+}
+
+/* Example diagonal shape section */
+.diagonal-section {
+  position: relative;
+  background: #400000; /* darker red for contrast */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  min-height: 50vh;
+  margin-top: 2rem;
+}
+
+/* If you want a red border on that diagonal */
+.diagonal-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border: 2px solid #e10000; /* bright red */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  pointer-events: none; /* so it doesn't interfere with content */
+}
