@@ -16,9 +16,6 @@ import RightArrow from '../../images/right-arrow.png';
 const TracksSection = () => {
     return (
         <div id="tracks" className="p-10 relative">
-            <h2 className="text-3xl md:text-6xl text-textColorDark font-coco font-bold text-center mb-8 pb-5">
-                EXPLORE THE TRACKS!
-            </h2>
 
             {/* Image and Progress Bar Section */}
             <div className="flex">
