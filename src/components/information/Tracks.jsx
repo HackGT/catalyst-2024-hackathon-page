@@ -15,35 +15,33 @@ import RightArrow from '../../images/right-arrow.png';
 
 const TracksSection = () => {
     return (
-        <div id="tracks" className="p-10 relative">
+            
+        <div id="tracks" className="p-10 my-16">
+            <h2 className="text-3xl md:text-6xl ml-20 text-textColor font-racesport text-center mb-8 pb-5">
+                TRACKS
+            </h2>
 
             {/* Image and Progress Bar Section */}
             <div className="flex">
                 {/* Car Image Section with Tire Track */}
-                {/* "Tracks" Text - Smaller and Higher */}
-{/* "Tracks" Text - Centered Above the Car */}
-<div className="absolute top-[-1px] left-1/7 transform -translate-x-1 w-[200px]">
-    <img 
-        src={Tracks}
-        alt="Tracks"
-        className="w-[200px] h-auto"
-    />
-</div>
+                {/* "Tracks" Text - Centered Above the Car */}
+                <div id="tracks" className="p-10 my-16">
+       
+            </div>
 
-
-{/* Car Image Section with Tire Track */}
-<div className="relative w-[600px] h-[160px] mr-auto">
-    <img 
-        src={TireTrack}
-        alt="Tire Track"
-        className="absolute top-0 left-0 w-[100%] h-auto opacity-70"
-    />
-    <img 
-        src={TrackCar}
-        alt="Track Car"
-        className="relative w-[600px] h-[160px] object-contain"
-    />
-</div>
+                {/* Car Image Section with Tire Track */}
+                <div className="relative w-[600px] h-[160px] mr-auto">
+                    <img 
+                        src={TireTrack}
+                        alt="Tire Track"
+                        className="absolute top-0 left-0 w-[100%] h-auto opacity-70"
+                    />
+                    <img 
+                        src={TrackCar}
+                        alt="Track Car"
+                        className="relative w-[600px] h-[160px] object-contain"
+                    />
+                </div>
 
                 {/* Progress Bars with Text on Top */}
                 <div className="flex flex-col gap-6 items-start ml-auto">
@@ -102,40 +100,36 @@ const TracksSection = () => {
 
             {/* New Section with Header, Body Text, and Arrows */}
             <div className="relative flex items-center justify-center w-full">
-  {/* Left Arrow - absolutely positioned */}
-  <img 
-    src={LeftArrow}
-    alt="Left Arrow"
-    className="absolute left-4 w-10 h-10 cursor-pointer"
-  />
-  
-  {/* Header & Body Text */}
-  <div className="flex flex-col items mx-6 scale-[1.5]">
-    <img 
-      src={HeaderText}
-      alt="Header Text"
-      className="w-[250px] mb-3"
-    />
-    <img 
-      src={BodyText}
-      alt="Body Text"
-      className="w-[500px]"
-    />
-  </div>
+                {/* Left Arrow - absolutely positioned */}
+                <img 
+                    src={LeftArrow}
+                    alt="Left Arrow"
+                    className="absolute left-4 w-10 h-10 cursor-pointer"
+                />
+                
+                {/* Header & Body Text */}
+                <div className="flex flex-col items mx-6 scale-[1.5]">
+                    <img 
+                        src={HeaderText}
+                        alt="Header Text"
+                        className="w-[250px] mb-3"
+                    />
+                    <img 
+                        src={BodyText}
+                        alt="Body Text"
+                        className="w-[500px]"
+                    />
+                </div>
 
-  {/* Right Arrow - absolutely positioned */}
-  <img 
-    src={RightArrow}
-    alt="Right Arrow"
-    className="absolute right-4 w-10 h-10 cursor-pointer"
-  />
-</div>
+                {/* Right Arrow - absolutely positioned */}
+                <img 
+                    src={RightArrow}
+                    alt="Right Arrow"
+                    className="absolute right-4 w-10 h-10 cursor-pointer"
+                />
+            </div>
+        </div>)};
 
     
-</div>
-
-
-    );
-};
 
 export default TracksSection;

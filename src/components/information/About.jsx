@@ -10,15 +10,15 @@ const AboutSection = () => {
                 <div className="text-lg md:text-xl font-jetbrains leading-relaxed text-left w-[70%]"> {/* Moved w-[70%] here */}
                     <p>
                         HexLabs presents Catalyst Hacks, a virtual hackathon for high schoolers out of Georgia Tech! 
-                        Join us online from Friday, November 8th, to Sunday, November 11th, to collaborate with 
-                        other passionate students and build an exciting project.
+                        Join us on Saturday, April 12th, 2025 to collaborate with other passionate students and build 
+                        an exciting project.
                     </p>
                     <p className="pt-4">
                         Catalyst, our high school learn-a-thon that takes place in the spring, was brought into 
-                        existence in 2018, and from the beginning of this event, HexLabs has hosted over 500 
-                        students on campus for the chance to participate in exciting workshops, collaborate with 
-                        dedicated students from other schools, and network with speakers and college students. 
-                        This fall, we're so excited to bring you a virtual hackathon for the first time!
+                        existence in 2018, and from the beginning of this event, HexLabs has hosted over 500 students 
+                        on campus for the chance to participate in exciting workshops, collaborate with dedicated 
+                        students from other schools, and network with speakers and college students. This spring, 
+                        we’re so excited to bring you a virtual hackathon for the first time!
                     </p>
                 </div>
             </div>
