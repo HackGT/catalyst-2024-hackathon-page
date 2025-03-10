@@ -24,14 +24,7 @@ const TracksSection = () => {
             <div className="flex">
                 {/* Car Image Section with Tire Track */}
                 {/* "Tracks" Text - Smaller and Higher */}
-{/* "Tracks" Text - Centered Above the Car */}
-<div className="absolute top-[-1px] left-1/7 transform -translate-x-1 w-[200px]">
-    <img 
-        src={Tracks}
-        alt="Tracks"
-        className="w-[200px] h-auto"
-    />
-</div>
+
 
 
 {/* Car Image Section with Tire Track */}

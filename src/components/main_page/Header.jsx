@@ -70,7 +70,7 @@ const Header = () => {
               </Link>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="/prizes"
               className="text-navText text-white font-racesport hover:underline"
@@ -85,7 +85,7 @@ const Header = () => {
                 PRIZES
               </Link>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="/faq"
