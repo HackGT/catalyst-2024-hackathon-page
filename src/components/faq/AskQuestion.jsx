@@ -48,7 +48,7 @@ const AskQuestionForm = () => {
                     Send Question
                 </button>
             </form> */}
-      <p className="absolute text-xs md:text-3xl font-racesport bottom-5 left-1/2 transform -translate-x-1/2">
+      <p className="absolute text-xs md:text-3xl font-racesport left-1/2 transform -translate-x-1/2 translate-y-4">
         WITH 💙 FROM THE HEXLABS TEAM
       </p>
     </div>
