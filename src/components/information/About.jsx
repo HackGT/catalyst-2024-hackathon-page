@@ -1,5 +1,4 @@
 import React from "react";
-// import Stingray from '../../images/Stingray.svg'
 
 const AboutSection = () => {
   return (

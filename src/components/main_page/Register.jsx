@@ -8,7 +8,6 @@ const Register = () => {
             <div className="bg-gradient-to-b from-headerStart via-headerTeal to-headerEnd relative text-center p-10 grid grid-cols-3 gap-4 items-center">
                 
                 <div className="hidden md:flex col-span-1 flex justify-end">
-                    {/*<img src={BubblesImage} alt="Bubbles" className="max-w-full h-auto" />*/}
                 </div>
 
                 <div className="col-span-3 md:col-span-1">
@@ -33,7 +32,6 @@ const Register = () => {
                 </div>
 
                 <div className="hidden md:flex col-span-1 flex justify-start">
-                    {/*<img src={BubblesImage} alt="Bubbles" className="max-w-full h-auto" />*/}
                 </div>
 
             </div>
