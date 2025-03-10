@@ -8,7 +8,7 @@ const FrontPage = () => {
       <div className="relative justify-center items-center space-x-2 mb-4"></div>
       <img
         src={FrontImage}
-        alt="Front Image"
+        alt="Front"
         className="hidden lg:flex absolute left-1/8 top-0 h-screen w-100 z-0"
       />
       <img
