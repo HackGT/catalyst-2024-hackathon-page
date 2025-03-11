@@ -1,10 +1,10 @@
 import React from 'react';
 
 const goals = [
-    { icon: "🏆", text: "To Encourage The Development Of Innovative And Impactful Projects" },
-    { icon: "🛞", text: "To Create A Community For Discussion, Interaction, And Innovation" },
-    { icon: "🏎️", text: "To Foster Connections Between Students With Like-Minded Interest In Computer Science" },
-    { icon: "🛑", text: "To Build A Safe Space For Development And Competition" }
+    { icon: "🏆", text: "Challenge students to think critically about how technology can address real-world problems" },
+    { icon: "🛞", text: "Create opportunities for students to collaborate in diverse teams, learn from one another, and experience the power of teamwork" },
+    { icon: "🏎️", text: "Empower students to see themselves as future innovators and problem-solvers " },
+    { icon: "🛑", text: "Equip participants with foundational and advanced knowledge in key areas like programming, machine learning, and computational thinking" }
 ];
 
 const GoalsSection = () => {
