@@ -5,7 +5,7 @@ import RedBar from '../../images/RedBar.png';
 import BlueBar from '../../images/BlueBar.png';
 import YellowBar from '../../images/YellowBar.png';
 import Outline from '../../images/Rectangle44.png';
-import Tracks from '../../images/Tracks.png'
+//import Tracks from '../../images/Tracks.png'
 
 // New Imports
 import HeaderText from '../../images/header.png';
