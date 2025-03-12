@@ -41,6 +41,12 @@ module.exports = {
         "40p": "40.0%",
         "15p": "15.0%",
       },
+      lineHeight: {
+        "100": "100%",
+      },
+      letterSpacing: {
+        "10.5": "10.5%",
+      }
     },
     backgroundImage: (theme) => ({
       "custom-gradient": `linear-gradient(to bottom, ${theme(
