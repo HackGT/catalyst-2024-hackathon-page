@@ -19,8 +19,12 @@ const FAQList = () => {
         },
         {
             question: 'Where is Catalyst?',
-            answer: "We'll be waiting for you at the Instructional Center[link google maps]",
-            link: { url: null},
+            answer: (
+                <>
+                    We'll be waiting for you at the <a href='https://maps.google.com/?q=Instructional+Center' target='_blank' style={{ color: '#4A90E2', textDecoration: 'underline' }}>Instructional Center</a>.
+                </>
+            ),
+            link: { url: 'https://maps.google.com/?q=Instructional+Center' }
         },
         {
             question: 'How do I choose which track to attend?',
