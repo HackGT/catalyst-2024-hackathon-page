@@ -10,6 +10,7 @@ import Tracks from "./components/information/Tracks.jsx";
 import Schedule from "./components/information/Schedule.jsx";
 import FAQList from "./components/faq/FAQList.jsx";
 import AskQuestionForm from "./components/faq/AskQuestion.jsx";
+import Footer from "./components/main_page/Footer.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Schedule />
         <FAQList />
         <AskQuestionForm />
+        <Footer />
       </div>
     </div>
   );
