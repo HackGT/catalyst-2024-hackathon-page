@@ -13,6 +13,7 @@ import BodyText from '../../images/body.png';
 import LeftArrow from '../../images/left-arrow.png';
 import RightArrow from '../../images/right-arrow.png';
 import GreenCar from '../../images/greencar.png';
+import YellowCar from '../../images/yellowcar.png'
 
 const TracksSection = () => {
     const [currentTrack, setCurrentTrack] = useState(0);
@@ -31,9 +32,9 @@ const TracksSection = () => {
             }
         },
         {
-            title: "",
-            description: "",
-            carImage: TrackCar,
+            title: "Sustainability Tech",
+            description: "“Green Light for a Greener Future! Rev your engines and shift into high gear for the Sustainability Track! This isn't just about speed—it’s about endurance, efficiency. From turbocharging renewable energy ideas to creating eco-friendly innovations, you’ll navigate the fast lane toward a cleaner, greener future.”",
+            carImage: YellowCar,
             header: HeaderText,
             body: BodyText,
             bars: {
@@ -83,10 +84,7 @@ const TracksSection = () => {
                         <img 
                             src={tracks[currentTrack].carImage}
                             alt="Track Car"
-                            className="relative w-[700px] h-[200px] object-contain ml-20"
-                            style={{
-                                transform: `translateX(${currentTrack * 33.33}%)`
-                            }}
+                            className="relative w-[700px] h-[200px] object-contain"
                         />
                     </div>
 
