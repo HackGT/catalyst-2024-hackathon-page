@@ -8,9 +8,9 @@ const ExpectSection = () => {
           WHAT TO EXPECT
         </h2>
         <p className="text-xl md:text-xl font-jetbrains text-textColor">
-          At Catalyst Hacks, high school students can look forward to a day packed with activities 
-          and opportunities to explore key areas of computer science. The event will be divided into
-          two main segments: <b>morning workshops</b> and <b>evening idea-thon tracks</b>.
+          At Catalyst, high school students can look forward to a day packed with activities and opportunities to explore
+           key areas of computer science. The event will be divided into two main segments: <b>morning workshops</b> 
+           and <b>afternoon idea-thon tracks</b>.
         </p>
         <p className="text-xl md:text-xl font-jetbrains text-textColor pt-3">
           The <b>morning workshops</b> will feature interactive sessions led by experienced mentors and professionals. 
@@ -19,7 +19,7 @@ const ExpectSection = () => {
           students to expand their knowledge.
         </p>
         <p className="text-xl md:text-xl font-jetbrains text-textColor pt-3">
-          Later, the focus will shift to the <b>evening ideathon tracks</b> where students will work in groups 
+          Later, the focus will shift to the <b>afternoon idea-thon tracks</b> where students will work in groups 
           within chosen tracks: <b>AI, Sustainability Tech, Health Tech</b>. Guided by mentors with expertise 
           in these areas, participants will brainstorm creative solutions to real-world problems, developing 
           their ideas into practical prototypes or actionable plans. Teams will have access to resources, tools, 
@@ -29,7 +29,7 @@ const ExpectSection = () => {
         <p className="text-xl md:text-xl font-jetbrains text-textColor pt-3">
           Throughout the day, students will also have the chance to connect with peers who share similar interests, 
           gain insights from guest speakers, and build confidence in applying computer science to solve meaningful 
-          challenges. Whether you're a coding novice or a tech enthusiast, Catalyst Hacks is designed to spark your 
+          challenges. Whether you're a coding novice or a tech enthusiast, Catalyst is designed to spark your 
           curiosity and inspire creativity in a supportive and collaborative environment.
         </p>
       </div>

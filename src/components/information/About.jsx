@@ -1,27 +1,46 @@
 import React from "react";
+import RaceTrackBeardell from '../../images/raceTrackBeardell.svg';
+import TireTrack from '../../images/TireTrack.svg';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="my-16 w-custom">
-      <div className="ml-20 p-4 px-16 text-left text-textColor font-jetbrains">
-        <h2 className="text-4xl md:text-6xl text-textColor font-racesport text-left pb-3">
-          ABOUT
-        </h2>
-        <div className="text-xl md:text-xl">
-          <p className="">
-            <b>HexLabs presents Catalyst – an idea-thon for high schoolers hosted at Georgia Tech!</b>{" "}
-          </p>
-          <p className="pt-3">
-            Join us on <b>Saturday, April 12th, 2025,</b> for a day of innovation, collaboration, and creativity. 
-            Work alongside passionate students to learn more about the fundamentals of STEAM, receive mentorship 
-            from college students and other industry professionals, and participate in fun competitions!{" "}
-          </p>
-          <p className="pt-3">
-            Since its inception in 2018, Catalyst has welcomed over <b>500 students</b> to Georgia Tech, offering 
-            engaging workshops, networking opportunities with industry professionals and college students, 
-            and the chance to collaborate with like-minded peers. This spring, we’re thrilled to introduce 
-            our <b>first-ever idea-thon</b>, expanding access to even more aspiring innovators
-          </p>
+    <section id="about" className="my-16 w-full">
+      <div className="flex flex-row justify-center items-center">
+        <div className="pl-20 ml-8 w-5/6">
+          <h2 className="text-xl md:text-4xl text-textColor font-racesport text-left">
+            ABOUT
+          </h2>
+          <div className="text-xl md:text-2xl font-jetbrains text-left">
+            <p className="pt-6 leading-none">
+              HexLabs Presents Catalyst - An Idea-Thon For High Schoolers Hosted At Georgia Tech!
+            </p>
+            <p className="pt-6 leading-none">
+              Join Us On Saturday, April 12th, 2025, For A Day Of Innovation, Collaboration, And Creativity. 
+              Work Alongside Passionate Students To Learn More About The Fundamentals Of STEAM, Receive Mentorship 
+              From College Students And Other Industry Professionals, And Participate In Fun Competitions!
+            </p>
+            <p className="pt-6 leading-none">
+              Since Its Inception In 2018, Catalyst Has Welcomed Over 500 Students To Georgia Tech, Offering Engaging 
+              Workshops, Networking Opportunities With Industry Professionals And College Students, And The Chance To 
+              Collaborate With Like-Minded Peers. This Spring, We're Thrilled To Introduce Our First-Ever Idea-Thon, 
+              Expanding Access To Even More Aspiring Innovators.
+            </p>
+            <p className="pt-6 leading-none">
+              Don't Miss This Incredible Opportunity—Be Part Of The Next Generation Of Problem Solvers At Catalyst!
+            </p>
+          </div>
+        </div>
+        <div className="overflow-hidden">
+          <img 
+            src={RaceTrackBeardell} 
+            alt="Bear" 
+            className="w-[420px] h-[420px] translate-y-60 translate-x-[120px] z-20 relative"  
+          />
+          <img 
+            src={TireTrack} 
+            alt="Tire Track" 
+            className="w-[800px] h-[650px] -translate-y-20 z-10 relative" 
+          />
         </div>
       </div>
     </section>
