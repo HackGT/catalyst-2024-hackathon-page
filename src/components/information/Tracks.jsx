@@ -33,7 +33,7 @@ const TracksSection = () => {
         },
         {
             title: "Sustainability Tech",
-            description: "“Green Light for a Greener Future! Rev your engines and shift into high gear for the Sustainability Track! This isn't just about speed—it’s about endurance, efficiency. From turbocharging renewable energy ideas to creating eco-friendly innovations, you’ll navigate the fast lane toward a cleaner, greener future.”",
+            description: "Green Light for a Greener Future! Rev your engines and shift into high gear for the Sustainability Track! This isn't just about speed—it’s about endurance, efficiency. From turbocharging renewable energy ideas to creating eco-friendly innovations, you’ll navigate the fast lane toward a cleaner, greener future.",
             carImage: YellowCar,
             header: HeaderText,
             body: BodyText,
