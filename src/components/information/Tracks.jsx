@@ -44,8 +44,8 @@ const TracksSection = () => {
             }
         },
         {
-            title: "",
-            description: "",
+            title: "Artificial Intelligence",
+            description: "From neural networks to machine learning pit stops, push your AI knowledge to the limit. Tune your models like high-performance engines, optimize your algorithms for maximum horsepower, and AIM to be the first at the finish line and take the checkered flag of AI innovation!",
             carImage: TrackCar,
             header: HeaderText,
             body: BodyText,
